@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 100px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile {
+    margin: 0 auto;
+    height: auto;
+    /* max-width: 1046px; */
+    min-height: 300px;
+    height: auto;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background-color: #ffff;
+}
+
+.profile__picture {
+    min-height: 100%;
+    width: 25%;
+    /* border: 1px solid; */
+    border-radius: 15px;
+}
+
+.profile__picture img {
+    border-radius: inherit;
+    /* height: auto; */
+    /* max-height: 265px; */
+    width: 100%;
+    max-height: 300px;
+    /* height: 250px; */
+    /* border: 2px solid red; */
+    /* max-width: 40%; */
+    height: 100%;
+    z-index: 5;
+}
+
+.profile__info {
+    width: 73%;
+    /* border: 2px solid green; */
+    /* margin-right: 3px; */
+}
+
+.credentials {
+    margin-bottom: 35px;
+}
+
+.credentials div h1 {
+    /* font-size: 24px; */
+    /* color: green; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.credentials div h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.credentials div div i {
+    display: inline-block;
+    margin-right: 7px;
+    color: #4F4F4F;
+}
+
+.profile__info .description p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.profile__info .description p:first-of-type {
+    margin-bottom: 20px;
+}
+
+
+/* SKILLS  */
+
+.section {
+    margin-top: 25px;
+    /* border: 2px solid red; */
+    align-content: start;
+}
+
+.skills {
+    display: block;
+    width: 45%;
+    align-self: flex-start;
+    /* ali */
+    /* border: 4px solid; */
+    height: auto;
+}
+
+.reuse {
+    padding: 1rem 2rem;
+    background-color: #ffff;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+
+.skills .skill {
+    /* flex-wrap: no-wrap; */
+    flex-direction: column;
+    align-items: center;
+    margin: 2px 2.5px;
+}
+
+.skills .skill>* {
+    display: block;
+}
+
+.skills .container {
+    /* border: 2px solid; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.reuse>h1 {
+    /* margin: 15px 0 15px 10px; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+
+.skills .skills .skill p {
+    background-color: #4f4f4f;
+    color: #ffff;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+.skills .skill img {
+    height: 70px;
+}
+
+.experiences {
+    width: 53%;
+}
+
+.experiences>h1 {
+    text-transform: capitalize;
+}
+
+.experience {
+    display: flex;
+    margin: 5px;
+}
+
+.experience>div:first-of-type {
+    /* background: red; */
+    min-width: 30%;
+    /* border: 2px solid; */
+}
+
+.experience>div:first-of-type img {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.experience>div h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.experience>div h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin: 7px 0 15px 0;
+}
+
+.experience>div p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.pro.reuse {
+    /* display: inline-block; */
+    /* width: auto; */
+    margin: 15px 0;
+}
+
+.pro h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #4F4F4F;
+}
+
+.project {
+    /* border: 2px solid; */
+    max-width: 330px
+}
+
+.project>div {
+    border-radius: inherit;
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.project div img {
+    border-radius: inherit;
+    /* border: 1px solid; */
+    width: 100%;
+    max-height: 200px;
+}
+
+.project.reuse {
+    padding: 1rem;
+}
+
+.project span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #4F4F4F;
+}
+
+.project h1 {
+    margin: 10px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.project p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+a.btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 7px 20px;
+    background: #2F80ED;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn.btn-light {
+    background: white;
+    color: #2F80ED;
+    border: 1px solid #2F80ED;
+}
+
+div.actions {
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media ( max-width: 800px) {
+    body {
+        padding: 10px 20px!important;
+    }
+    .profile.flex {
+        flex-direction: column-reverse;
+    }
+    .profile {
+        align-items: center;
+    }
+    .profile__picture {
+        text-align: center;
+        min-height: 100%;
+        width: 85%;
+        margin-top: 10px;
+    }
+    .profile__info {
+        width: 100%;
+    }
+    .section.flex {
+        flex-direction: column;
+    }
+    .section.flex>* {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1100px) {
+    body {
+        padding: 10px 20px;
+        background: red;
+    }
+}
