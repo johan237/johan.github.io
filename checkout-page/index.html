@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Devchallenges</title>
+
+</head>
+
+<body>
+
+    <div class="container flex">
+        <div class="container--data">
+            <h1 class="primary--color mb"> Checkout </h1>
+            <h3>Contact Information</h3>
+            <form>
+                <div class="form--input">
+                    <h5 class="form--input_title">e-mail</h5>
+                    <div class="input--data">
+                        <i class="input-icon fa-solid fa-envelope"></i>
+                        <input type="email" name="" id="" placeholder="Enter your email...">
+                    </div>
+                </div>
+
+                <div class="form--input">
+                    <h5 class="form--input_title">phone</h5>
+                    <div class="input--data">
+                        <i class="input-icon fa-solid fa-phone"></i>
+                        <input type="tel" name="" id="" placeholder="Enter your phone...">
+                    </div>
+                </div>
+            </form>
+
+            <h1 class="primary--color">Shipping address</h1>
+
+            <form>
+                <div class="form--input">
+                    <h5 class="form--input_title">full name</h5>
+                    <div class="input--data darker--input">
+                        <i class=" input-icon fa-regular fa-user"></i>
+                        <input type="text" name="" id="" placeholder="Rodney Cotton">
+                    </div>
+                </div>
+
+                <div class="form--input">
+                    <h5 class="form--input_title">Address</h5>
+                    <div class="input--data">
+                        <i class="input-icon fa-solid fa-house"></i>
+                        <input type="text" name="" id="" placeholder="Rodney Cotton">
+                    </div>
+                </div>
+
+                <div class="form--input">
+                    <h5 class="form--input_title">Address</h5>
+                    <div class="input--data">
+                        <i class="input-icon fa-solid fa-city"></i>
+                        <input type="text" name="" id="" placeholder="Rodney Cotton">
+                    </div>
+                </div>
+
+                <div class="hello flex">
+                    <div class=" form--input select">
+                        <h5 class="form--input_title">Country</h5>
+                        <select id="standard-select">
+                            <option value="Option 1">
+                          Your country
+                            </option>
+                            <option value="Option 2">Option 2</option>
+                            <option value="Option 3">Option 3</option>
+                            <option value="Option 4">Option 4</option>
+                            <option value="Option 5">Option 5</option>            
+                        </select>
+                    </div>
+
+                    <div class="form--input">
+                        <h5 class="form--input_title">Address</h5>
+                        <div class="input--data">
+                            <i class="input-icon fa-solid fa-signs-post"></i>
+                            <input type="text" name="" id="" placeholder="Rodney Cotton">
+                        </div>
+                    </div>
+                </div>
+                <div class="form--input check flex">
+
+                    <input class="checkbox" type="checkbox" name="" id="">
+
+                    <h5 class="form--input_title">save this information for next time.</h5>
+                </div>
+
+                <button class="btn" type="submit">Continue</button>
+            </form>
+        </div>
+
+        <div class="container--purchase ">
+            <div class="purchases">
+                <div class="purchase flex">
+                    <img src="./checkout-page-master/photo1.png" alt="">
+                    <div class="purchase--content">
+                        <div class="info">
+                            <h4>Vintage Backbag</h4>
+                            <div class="prices-tag"> <span class="price">$54.99</span> <span class="old-price"> 94.99 </span></div>
+                        </div>
+
+                        <div class="quantity flex">
+                            <span class="vary plus">-</span>
+                            <span class="qty-val">1</span>
+                            <span class="vary minus">+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="purchase flex">
+                    <img src="./checkout-page-master/photo2.png" alt="">
+                    <div class="purchase--content">
+                        <div class="info">
+                            <h4>Levi Shoes</h4>
+                            <div class="prices-tag"> <span class="price">$74.99</span> <span class="old-price"> 124.99 </span></div>
+                        </div>
+
+                        <div class="quantity flex">
+                            <span class="vary plus">-</span>
+                            <span class="qty-val">1</span>
+                            <span class="vary minus">+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="final flex">
+                <h1>Shipping</h1>
+                <h4>$19</h4>
+            </div>
+
+
+            <div class="final flex">
+                <h1>Total</h1>
+                <h4>$148.98</h4>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
